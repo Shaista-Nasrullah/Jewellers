@@ -1,0 +1,17 @@
+.my-image{
+  margin-right: 20px;
+  margin-bottom: 8px;
+  height: 100px;
+  width: 100px;
+}
+.remove{
+  color: red;
+  border: none;
+  background-color: transparent;
+  font-size: small;
+
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
