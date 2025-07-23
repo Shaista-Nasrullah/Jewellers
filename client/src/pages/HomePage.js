@@ -231,7 +231,7 @@ const HomePage = () => {
           {products?.map((p) => (
             <>
               <div
-                className="col-4"
+                className="col-12 col-md-6 col-lg-4"
                 onClick={() => navigate(`/product/${p.slug}`)}
               >
                 <img src={p.photo2} className="image" alt={p.name} />
